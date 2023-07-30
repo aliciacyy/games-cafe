@@ -1,0 +1,1 @@
+![Screenshot](img/spot.jpg)
