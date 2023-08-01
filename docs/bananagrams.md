@@ -1,1 +1,0 @@
-![Screenshot](img/bananagrams.jpg)

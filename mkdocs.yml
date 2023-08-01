@@ -1,7 +1,0 @@
-site_name: AliSiang Gaming Oasis
-site_url: https://aliciacyy.github.io/games-cafe
-nav:
-  - AliSiang Gaming Oasis: index.md
-plugins: []
-theme: 
-  name: simple-blog

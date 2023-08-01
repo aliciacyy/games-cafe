@@ -1,1 +1,0 @@
-![Screenshot](img/spudnet.jpg)

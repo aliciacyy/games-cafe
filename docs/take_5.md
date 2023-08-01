@@ -1,1 +1,0 @@
-![Screenshot](img/take5.jpg)
