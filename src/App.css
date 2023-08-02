@@ -36,8 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.fadeIn {
-  opacity: 1;
-  transform: translateY(0px);
-}

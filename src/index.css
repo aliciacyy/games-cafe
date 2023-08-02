@@ -22,10 +22,14 @@ code {
   }
 }
 
-/* @layer components {
+@layer components {
   .leCards {
     opacity: 0;
     transform: translateY(0px);
     transition: transform 1s, opacity 1s;
   }
-} */
+  .fadeIn {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

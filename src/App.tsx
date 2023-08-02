@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import GameCard from "./components/GameCard";
 
@@ -11,25 +11,27 @@ function App() {
     }
   }
 
-  // const imgList = document.querySelectorAll(".leCards")
-
-  // const callback = (entries: any, observer: any) => {
-  //   entries.forEach((entry: any) => {
-  //     if (entry.isIntersecting) {
-  //       entry.target.classList.add("fadeIn")
-  //       observer.unobserve(entry.target)
-  //     }
-  //   })
-  // }
-  // const options = {}
-
-  // const myObserver = new IntersectionObserver(callback, options)
-  // imgList.forEach(img => {
-  //   myObserver.observe(img!)
-  // })
+  useEffect(() => {
+    const callback = (entries: any, observer: any) => {
+      entries.forEach((entry: any) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fadeIn')
+          observer.unobserve(entry.target)
+        }
+      })
+    }
+    const options = {}
+    const myObserver = new IntersectionObserver(callback, options)
+  
+    const imgList = document.querySelectorAll(".leCards")
+    imgList.forEach(img => {
+      myObserver.observe(img!)
+    })
+  });
 
   const games = [
-    createGameObj('Banangrams', '2 and above', 'bananagrams.jpg'),
+    createGameObj('Bananagrams', '2 and above', 'bananagrams.jpg'),
+    createGameObj('Catan', '3 to 4', 'catan.jpg'),
     createGameObj('Codenames', '2 and above', 'codenames.jpg'),
     createGameObj('Codenames Pictures', '2 and above', 'codenames_pictures.jpg'),
     createGameObj('Deep Sea Adventure', '1 to 4', 'deep_sea.jpg'),
@@ -54,21 +56,32 @@ function App() {
     createGameObj('Unstable Unicorns', '2 to 8', 'unstable.jpg'),
   ]
 
+  const renderGames = () => {
+    return games.map((game) => (
+      <GameCard
+        key={game.gameName}
+        gameName={game.gameName}
+        players={game.players}
+        img={game.img}
+      />
+    ));
+  }
+
   return (
-    <div className="container xl:mx-auto bg-gray-200 rounded-xl shadow border p-8 xl:m-10">
-      <p className="text-6xl text-gray-700 font-bold mb-8 text-center">
-        Alisiang Gaming Oasis
-      </p>
-      <div className="flex gap-4 flex-wrap justify-center">
-        {games.map((game) => (
-          <GameCard
-            key={game.gameName}
-            gameName={game.gameName}
-            players={game.players}
-            img={game.img}
-          />
-        ))}
+    <div>
+      <div className="container max-w-full bg-gray-200 p-8 h-[60vh] xl:h-[80vh] flex justify-center items-center">
+        <p className="leCards text-6xl xl:text-8xl text-gray-700 font-bold mb-8 text-center">
+          <span className='text-gray-900'>A</span>lisiang <span className='text-gray-900'>G</span>aming <span className='text-gray-900'>O</span>asis
+        </p>
       </div>
+
+      <div className="container max-w-full bg-gray-300 p-8">
+        <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">Our Games</div>
+        <div className="flex gap-4 flex-wrap justify-center">
+          {renderGames()}
+        </div>
+      </div>
+
     </div>
   );
 }
