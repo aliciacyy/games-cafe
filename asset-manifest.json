@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/games-cafe/static/css/main.da909049.css",
-    "main.js": "/games-cafe/static/js/main.5bed3aa9.js",
+    "main.css": "/games-cafe/static/css/main.c6e741a6.css",
+    "main.js": "/games-cafe/static/js/main.322dc693.js",
+    "static/media/mysterium.jpg": "/games-cafe/static/media/mysterium.82d6399740317cce07cc.jpg",
     "static/media/rummikub.jpg": "/games-cafe/static/media/rummikub.df5004b9087d7ff0b503.jpg",
     "static/media/take5.jpg": "/games-cafe/static/media/take5.28400da86c14d63c02cc.jpg",
+    "static/media/singaporean.jpg": "/games-cafe/static/media/singaporean.0fa8499e4c2f7c1bad57.jpg",
+    "static/media/dixit.jpg": "/games-cafe/static/media/dixit.7b4c9befb8e4723565e2.jpg",
     "static/media/catan.jpg": "/games-cafe/static/media/catan.14e60bab0f4819cfb1e3.jpg",
     "static/media/saboteur.jpg": "/games-cafe/static/media/saboteur.ab2db5c4151a6d18e256.jpg",
     "static/media/plantopia.jpg": "/games-cafe/static/media/plantopia.4a899d3d808c4e069362.jpg",
@@ -26,11 +29,11 @@
     "static/media/teabbles.jpg": "/games-cafe/static/media/teabbles.d22a9a1d709cebfb5d38.jpg",
     "static/media/poetry.jpg": "/games-cafe/static/media/poetry.80ef397cd61f22412c31.jpg",
     "index.html": "/games-cafe/index.html",
-    "main.da909049.css.map": "/games-cafe/static/css/main.da909049.css.map",
-    "main.5bed3aa9.js.map": "/games-cafe/static/js/main.5bed3aa9.js.map"
+    "main.c6e741a6.css.map": "/games-cafe/static/css/main.c6e741a6.css.map",
+    "main.322dc693.js.map": "/games-cafe/static/js/main.322dc693.js.map"
   },
   "entrypoints": [
-    "static/css/main.da909049.css",
-    "static/js/main.5bed3aa9.js"
+    "static/css/main.c6e741a6.css",
+    "static/js/main.322dc693.js"
   ]
 }
