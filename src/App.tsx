@@ -40,7 +40,7 @@ function App() {
     createGameObj('Dixit', '3 to 8', 'dixit.jpg'),
     createGameObj('Enter the Spudnet', '2 to 6', 'spudnet.jpg'),
     createGameObj('Exploding Kittens', '2 to 8', 'exploding.jpg'),
-    createGameObj('F***k the Game', '3 to 8', 'fk.jpg'),
+    createGameObj('F**k the Game', '3 to 8', 'fk.jpg'),
     createGameObj('Hanabi', '2 to 5', 'hanabi.jpg'),
     createGameObj('Here to Slay', '2 to 6', 'poetry.jpg'),
     createGameObj('Love Letter', '2 to 6', 'love_letter.jpg'),
