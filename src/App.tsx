@@ -32,11 +32,11 @@ function App() {
   });
 
   const games = [
-    createGameObj('Bananagrams', '1 to 8', 'bananagrams.jpg'),
+    createGameObj('Bananagrams', '2 to 8', 'bananagrams.jpg'),
     createGameObj('Catan', '3 to 4', 'catan.jpg'),
     createGameObj('Codenames', '2 and above', 'codenames.jpg'),
     createGameObj('Codenames Pictures', '2 and above', 'codenames_pictures.jpg'),
-    createGameObj('Deep Sea Adventure', '1 to 4', 'deep_sea.jpg'),
+    createGameObj('Deep Sea Adventure', '2 to 4', 'deep_sea.jpg'),
     createGameObj('Dixit', '3 to 8', 'dixit.jpg'),
     createGameObj('Enter the Spudnet', '2 to 6', 'spudnet.jpg'),
     createGameObj('Exploding Kittens', '2 to 8', 'exploding.jpg'),
@@ -85,7 +85,7 @@ function App() {
         </div>
       </div>
 
-      <div className="container max-w-full bg-gray-300 p-8">
+      <div className="container max-w-full bg-gray-300 py-8 xl:p-8">
         <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">Games</div>
         <div className="flex gap-4 flex-wrap justify-center">
           {renderGames()}
