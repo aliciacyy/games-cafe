@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/games-cafe/static/css/main.61287fee.css",
-    "main.js": "/games-cafe/static/js/main.3ad41974.js",
+    "main.js": "/games-cafe/static/js/main.30d44af6.js",
     "static/media/mysterium.jpg": "/games-cafe/static/media/mysterium.82d6399740317cce07cc.jpg",
     "static/media/rummikub.jpg": "/games-cafe/static/media/rummikub.df5004b9087d7ff0b503.jpg",
     "static/media/take5.jpg": "/games-cafe/static/media/take5.28400da86c14d63c02cc.jpg",
@@ -30,10 +30,10 @@
     "static/media/poetry.jpg": "/games-cafe/static/media/poetry.80ef397cd61f22412c31.jpg",
     "index.html": "/games-cafe/index.html",
     "main.61287fee.css.map": "/games-cafe/static/css/main.61287fee.css.map",
-    "main.3ad41974.js.map": "/games-cafe/static/js/main.3ad41974.js.map"
+    "main.30d44af6.js.map": "/games-cafe/static/js/main.30d44af6.js.map"
   },
   "entrypoints": [
     "static/css/main.61287fee.css",
-    "static/js/main.3ad41974.js"
+    "static/js/main.30d44af6.js"
   ]
 }
