@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import "./App.css";
-import GameCard from "./components/GameCard";
+import { useEffect } from 'react';
+import GameCard from '../components/GameCard';
 
-function App() {
+function BoardGames() {
+
   const createGameObj = (name: string, players: string, img: string) => {
     return {
       gameName: name,
@@ -71,29 +71,15 @@ function App() {
       />
     ));
   }
-
+  
   return (
-    <div>
-      <div className="container max-w-full bg-gray-200 p-8 h-[60vh] xl:h-[80vh] flex justify-center items-center">
-        <div>
-          <div className="leCards text-6xl xl:text-8xl text-gray-700 font-bold mb-8 text-center">
-            <span className='text-gray-900'>A</span>lisiang <span className='text-gray-900'>G</span>aming <span className='text-gray-900'>O</span>asis
-          </div>
-          <div className="leCards text-lg xl:text-3xl text-gray-500 mb-8 text-center">
-            By invitation only
-          </div>
-        </div>
+    <div className="container max-w-full bg-gray-300 py-8 xl:p-8">
+      <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">
+        Card Games
       </div>
-
-      <div className="container max-w-full bg-gray-300 py-8 xl:p-8">
-        <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">Games</div>
-        <div className="flex gap-4 flex-wrap justify-center">
-          {renderGames()}
-        </div>
-      </div>
-
+      <div className="flex gap-4 flex-wrap justify-center">{renderGames()}</div>
     </div>
   );
 }
 
-export default App;
+export default BoardGames;

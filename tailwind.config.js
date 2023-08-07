@@ -12,7 +12,8 @@ module.exports = {
       accent: '#92C3CB',
       bg: '#f3f0ef',
       gray: colors.gray,
-      white: colors.white
+      white: colors.white,
+      blue: colors.blue
     },
     extend: {},
   },
