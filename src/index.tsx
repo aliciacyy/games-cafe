@@ -8,15 +8,24 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import BoardGames from './pages/BoardGames';
+import ScrollToTop from './ScrollToTop';
 
 const router = createBrowserRouter([
   {
     path: "/games-cafe",
-    element: <App/>,
+    element: 
+    <>
+      <ScrollToTop/>
+      <App/>
+    </>
   },
   {
     path: "/games-cafe/board-games",
-    element: <BoardGames/>,
+    element: 
+    <>
+      <ScrollToTop/>
+      <BoardGames/>,
+    </>
   },
 ]);
 
