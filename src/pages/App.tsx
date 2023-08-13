@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import "./App.css";
 import HomeSection from '../components/HomeSection';
+import AboutSection from '../components/AboutSection';
 
 function App() {
 
@@ -26,17 +27,18 @@ function App() {
 
   return (
     <>
-      <div className="container max-w-full bg-gray-200 p-8 h-[60vh] xl:h-[80vh] flex justify-center items-center">
+      <div className="container max-w-full bg-gray-200 p-8 h-[60vh] xl:h-[70vh] flex justify-center items-center">
         <div>
-          <div className="leCards text-6xl xl:text-8xl text-gray-700 font-bold mb-8 text-center">
+          <div className="text-6xl xl:text-8xl text-gray-700 font-bold mb-8 text-center">
             <span className='text-gray-900'>A</span>lisiang <span className='text-gray-900'>G</span>aming <span className='text-gray-900'>O</span>asis
           </div>
-          <div className="leCards text-lg xl:text-3xl text-gray-500 mb-8 text-center">
+          <div className="text-lg xl:text-3xl text-gray-500 mb-8 text-center">
             By invitation only
           </div>
         </div>
       </div>
-      <div className="xl:flex xl:gap-0">
+      <AboutSection/>
+      <div className="leCards xl:flex xl:gap-0">
         <HomeSection bgClass="bg-gray-100" comingSoon={false}
          title="Board Games" img="games_cards.svg"
          subtitle="Experience the nostalgic charm of timeless board games."/>
