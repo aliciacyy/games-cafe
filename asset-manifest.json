@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/games-cafe/static/css/main.0a5199fe.css",
-    "main.js": "/games-cafe/static/js/main.35a42a37.js",
+    "main.css": "/games-cafe/static/css/main.c537b8d7.css",
+    "main.js": "/games-cafe/static/js/main.7cb9170b.js",
     "static/media/mysterium.jpg": "/games-cafe/static/media/mysterium.82d6399740317cce07cc.jpg",
     "static/media/rummikub.jpg": "/games-cafe/static/media/rummikub.df5004b9087d7ff0b503.jpg",
     "static/media/take5.jpg": "/games-cafe/static/media/take5.28400da86c14d63c02cc.jpg",
@@ -15,28 +15,33 @@
     "static/media/love_letter.jpg": "/games-cafe/static/media/love_letter.08ce2f324efd82f21c84.jpg",
     "static/media/toxic.jpg": "/games-cafe/static/media/toxic.8207d765c1267f6856f0.jpg",
     "static/media/hanabi.jpg": "/games-cafe/static/media/hanabi.f4989f31e601ac2eb5d5.jpg",
+    "static/media/here-to-slay.jpg": "/games-cafe/static/media/here-to-slay.e42de97a92b9ddac9499.jpg",
     "static/media/sushi.jpg": "/games-cafe/static/media/sushi.b66f801d5addf5beb0c9.jpg",
     "static/media/organ.jpg": "/games-cafe/static/media/organ.d6655e00e49e0387db59.jpg",
     "static/media/spot_it.jpg": "/games-cafe/static/media/spot_it.6116ca4d3a86a86e78a9.jpg",
     "static/media/bananagrams.jpg": "/games-cafe/static/media/bananagrams.f394d43fcf9a08414b21.jpg",
     "static/media/poop.jpg": "/games-cafe/static/media/poop.092fb4c093dd0c88313d.jpg",
     "static/media/codenames_pictures.jpg": "/games-cafe/static/media/codenames_pictures.36e91965184102c75b75.jpg",
+    "static/media/poetry.jpg": "/games-cafe/static/media/poetry.5ebb03c149abe9ba6bc2.jpg",
     "static/media/unstable.jpg": "/games-cafe/static/media/unstable.50441323c7ace0ed3043.jpg",
     "static/media/fk.jpg": "/games-cafe/static/media/fk.b50eab115aae4865ef10.jpg",
     "static/media/codenames.jpg": "/games-cafe/static/media/codenames.300c5846d492cf2c7960.jpg",
     "static/media/taco.jpg": "/games-cafe/static/media/taco.b2506e891316b1e796a5.jpg",
+    "static/media/ugly-doll.jpg": "/games-cafe/static/media/ugly-doll.521543f2ab7b520af50a.jpg",
     "static/media/deep_sea.jpg": "/games-cafe/static/media/deep_sea.fd9eeed1ec1895e15549.jpg",
+    "static/media/llamas.jpg": "/games-cafe/static/media/llamas.5c90fa40daffb3a858be.jpg",
+    "static/media/mind.jpg": "/games-cafe/static/media/mind.c22ca21a7bc8e841270e.jpg",
     "static/media/teabbles.jpg": "/games-cafe/static/media/teabbles.d22a9a1d709cebfb5d38.jpg",
-    "static/media/poetry.jpg": "/games-cafe/static/media/poetry.80ef397cd61f22412c31.jpg",
+    "static/media/werewolf.jpg": "/games-cafe/static/media/werewolf.f952f8cb643ac3197c7e.jpg",
     "static/media/games_video.svg": "/games-cafe/static/media/games_video.e2bf6f869d419910243b.svg",
     "static/media/games_cards.svg": "/games-cafe/static/media/games_cards.291baee7d86a47e97a88.svg",
     "static/media/games_vr.svg": "/games-cafe/static/media/games_vr.e4f51b757769b9dd8ede.svg",
     "index.html": "/games-cafe/index.html",
-    "main.0a5199fe.css.map": "/games-cafe/static/css/main.0a5199fe.css.map",
-    "main.35a42a37.js.map": "/games-cafe/static/js/main.35a42a37.js.map"
+    "main.c537b8d7.css.map": "/games-cafe/static/css/main.c537b8d7.css.map",
+    "main.7cb9170b.js.map": "/games-cafe/static/js/main.7cb9170b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a5199fe.css",
-    "static/js/main.35a42a37.js"
+    "static/css/main.c537b8d7.css",
+    "static/js/main.7cb9170b.js"
   ]
 }
