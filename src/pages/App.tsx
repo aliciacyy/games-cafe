@@ -38,14 +38,14 @@ function App() {
       </div>
       <div className="xl:flex xl:gap-0">
         <HomeSection bgClass="bg-gray-100" comingSoon={false}
-         title="Card Games" img="games_cards.svg"
-         subtitle="We have a small collection of card and board games."/>
+         title="Board Games" img="games_cards.svg"
+         subtitle="Experience the nostalgic charm of timeless board games."/>
         <HomeSection bgClass="bg-gray-300" comingSoon={true} 
           title="Video Games" img="games_video.svg"
-          subtitle="We also have games on Nintendo Switch and PC."/>
+          subtitle="Indulge in video game experiences on Nintendo Switch and PC."/>
         <HomeSection bgClass="bg-gray-400" comingSoon={true} 
           title="VR Games" img="games_vr.svg"
-          subtitle="Fancy something VR? We do have a few games on Meta Quest 2."/>
+          subtitle="Step into the future of gaming with Meta Quest 2 VR games."/>
       </div>
     </>
   );

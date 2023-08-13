@@ -1,36 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './pages/App';
-import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import BoardGames from './pages/BoardGames';
-import ScrollToTop from './ScrollToTop';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./pages/App";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import BoardGames from "./pages/BoardGames";
+import ScrollToTop from "./ScrollToTop";
+import NavBar from './components/NavBar';
 
 const router = createBrowserRouter([
   {
     path: "/games-cafe",
-    element: 
-    <>
-      <ScrollToTop/>
-      <App/>
-    </>
+    element: (
+      <>
+        <NavBar/>
+        <ScrollToTop />
+        <App />
+      </>
+    ),
   },
   {
     path: "/games-cafe/board-games",
-    element: 
-    <>
-      <ScrollToTop/>
-      <BoardGames/>,
-    </>
+    element: (
+      <>
+        <NavBar/>
+        <ScrollToTop />
+        <BoardGames />
+      </>
+    ),
   },
 ]);
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>

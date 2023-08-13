@@ -42,7 +42,8 @@ function BoardGames() {
     createGameObj('Exploding Kittens', '2 to 8', 'exploding.jpg'),
     createGameObj('F**k the Game', '3 to 8', 'fk.jpg'),
     createGameObj('Hanabi', '2 to 5', 'hanabi.jpg'),
-    createGameObj('Here to Slay', '2 to 6', 'poetry.jpg'),
+    createGameObj('Here to Slay', '2 to 6', 'here-to-slay.jpg'),
+    createGameObj('Llamas Unleashed', '2 to 8', 'llamas.jpg'),
     createGameObj('Love Letter', '2 to 6', 'love_letter.jpg'),
     createGameObj('Mysterium', '2 to 7', 'mysterium.jpg'),
     createGameObj('Organ Attack', '2 to 6', 'organ.jpg'),
@@ -56,9 +57,12 @@ function BoardGames() {
     createGameObj('Taco Cat Goat Cheese Pizza', '2 to 8', 'taco.jpg'),
     createGameObj('Take 5', '2 to 10', 'take5.jpg'),
     createGameObj('Teabbles', '2 to 5', 'teabbles.jpg'),
+    createGameObj('The Mind', '2 to 4', 'mind.jpg'),
     createGameObj('The Singaporean Dream', '2 to 5', 'singaporean.jpg'),
     createGameObj('Toxic People', '2 to 6', 'toxic.jpg'),
+    createGameObj('Uglydoll', '2 to 6', 'ugly-doll.jpg'),
     createGameObj('Unstable Unicorns', '2 to 8', 'unstable.jpg'),
+    createGameObj('Werewolf', '7 to 35', 'werewolf.jpg')
   ]
 
   const renderGames = () => {
@@ -75,7 +79,7 @@ function BoardGames() {
   return (
     <div className="container max-w-full bg-gray-300 py-8 xl:p-8">
       <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">
-        Card Games
+        Board Games
       </div>
       <div className="flex gap-4 flex-wrap justify-center">{renderGames()}</div>
     </div>
