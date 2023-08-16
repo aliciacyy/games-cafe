@@ -9,6 +9,7 @@ function HomeSection(props: any) {
       <div className="flex justify-center mb-4">
         <img
           className="xl:w-44 w-60 h-44"
+          alt="home"
           src={require("../assets/" + props.img)}
         />
       </div>
@@ -24,7 +25,7 @@ function HomeSection(props: any) {
       {!props.comingSoon && (
         <Link to="board-games">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            View card games
+            View board games
           </button>
         </Link>
       )}

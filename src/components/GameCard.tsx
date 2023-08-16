@@ -3,6 +3,7 @@ function GameCard(props: any) {
         <div className="leCards w-40 xl:w-1/6 bg-white border border-gray-200 rounded-lg shadow">
           <img
             className="rounded-t-lg"
+            alt="game"
             src={require('../assets/' + props.img)} 
           />
           <div className="p-2 xl:p-5 bg-white">

@@ -2,40 +2,44 @@ import { useEffect } from 'react';
 import GameCard from '../components/GameCard';
 
 function BoardGames() {
-
   const createGameObj = (name: string, players: string, img: string) => {
     return {
       gameName: name,
       players,
-      img
-    }
-  }
+      img,
+    };
+  };
 
   useEffect(() => {
     const callback = (entries: any, observer: any) => {
       entries.forEach((entry: any) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('fadeIn')
-          observer.unobserve(entry.target)
+          entry.target.classList.add('fadeIn');
+          observer.unobserve(entry.target);
         }
-      })
-    }
+      });
+    };
     const options = {
       rootMargin: '-50px',
-    }
-    const myObserver = new IntersectionObserver(callback, options)
-  
-    const imgList = document.querySelectorAll(".leCards")
-    imgList.forEach(img => {
-      myObserver.observe(img!)
-    })
+    };
+    const myObserver = new IntersectionObserver(callback, options);
+
+    const imgList = document.querySelectorAll('.leCards');
+    imgList.forEach((img) => {
+      myObserver.observe(img!);
+    });
   });
 
   const games = [
     createGameObj('Bananagrams', '2 to 8', 'bananagrams.jpg'),
     createGameObj('Catan', '3 to 4', 'catan.jpg'),
+    createGameObj('Cat in the Box', '2 to 5', 'cat.jpg'),
     createGameObj('Codenames', '2 and above', 'codenames.jpg'),
-    createGameObj('Codenames Pictures', '2 and above', 'codenames_pictures.jpg'),
+    createGameObj(
+      'Codenames Pictures',
+      '2 and above',
+      'codenames_pictures.jpg'
+    ),
     createGameObj('Deep Sea Adventure', '2 to 4', 'deep_sea.jpg'),
     createGameObj('Dixit', '3 to 8', 'dixit.jpg'),
     createGameObj('Enter the Spudnet', '2 to 6', 'spudnet.jpg'),
@@ -62,8 +66,8 @@ function BoardGames() {
     createGameObj('Toxic People', '2 to 6', 'toxic.jpg'),
     createGameObj('Uglydoll', '2 to 6', 'ugly-doll.jpg'),
     createGameObj('Unstable Unicorns', '2 to 8', 'unstable.jpg'),
-    createGameObj('Werewolf', '7 to 35', 'werewolf.jpg')
-  ]
+    createGameObj('Werewolf', '7 to 35', 'werewolf.jpg'),
+  ];
 
   const renderGames = () => {
     return games.map((game) => (
@@ -74,14 +78,22 @@ function BoardGames() {
         img={game.img}
       />
     ));
-  }
-  
+  };
+
   return (
-    <div className="container max-w-full bg-gray-300 py-8 xl:p-8">
-      <div className="text-4xl xl:text-6xl text-gray-700 font-bold mb-8 text-center">
+    <div className='container max-w-full bg-gray-300 py-8 xl:p-8'>
+      <div className='text-4xl xl:text-6xl text-gray-700 font-bold mb-4 text-center'>
         Board Games
       </div>
-      <div className="flex gap-4 flex-wrap justify-center">{renderGames()}</div>
+      <div className='text-xl xl:text-2xl text-gray-500 mb-8 text-center'>
+        Experience the nostalgic charm of timeless board games.
+      </div>
+      <div className='flex gap-4 flex-wrap mb-8 justify-center'>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+          Random game
+        </button>
+      </div>
+      <div className='flex gap-4 flex-wrap justify-center'>{renderGames()}</div>
     </div>
   );
 }

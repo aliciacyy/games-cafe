@@ -13,7 +13,8 @@ module.exports = {
       bg: '#f3f0ef',
       gray: colors.gray,
       white: colors.white,
-      blue: colors.blue
+      blue: colors.blue,
+      cyan: colors.cyan
     },
     extend: {},
   },

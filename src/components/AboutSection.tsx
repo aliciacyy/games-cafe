@@ -29,12 +29,12 @@ function AboutSection() {
           <h1 className="max-w-2xl mb-4 text-4xl font-bold md:text-5xl xl:text-6xl text-white">
             About us
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-200">
+          <p className="max-w-2xl mb-6 font-light text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
             Embracing a growing interest for board games since 2020, what
             started off as just a few board games flourished into an evergrowing
             collection with each passing year.
           </p>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-200">
+          <p className="max-w-2xl mb-6 font-light text-gray-300 lg:mb-8 md:text-lg lg:text-xl">
             As our passion for games blossomed, so did the idea for an imaginary
             games cafe tailored for intimate gatherings. After all, the true
             magic of board games comes to life in the company of a close-knit
@@ -42,7 +42,7 @@ function AboutSection() {
           </p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img className="h-60" src={AboutPic} />
+          <img className="h-60" src={AboutPic} alt="about" />
         </div>
       </div>
     </section>
