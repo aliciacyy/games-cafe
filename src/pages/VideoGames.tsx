@@ -40,7 +40,7 @@ function VideoGames() {
     createGameObj('Super Mario Bros. Wonder', '2 to 4', 'supermario_wonder.jpg'),
     createGameObj('Super Mario Party', '2 to 4', 'supermario_party.jpg'),
     createGameObj('Super Smash Bros. Ultimate', '2 to 4', 'super_smash.jpg'),
-    createGameObj('Taiko No Tatsujin Nintendo Switch Version', '2 to 4', 'taiko_switch.jpg'),
+    createGameObj('Taiko no Tatsujin Nintendo Switch Version', '2 to 4', 'taiko_switch.jpg'),
     createGameObj('Taiko no Tatsujin: Rhythm Festival', '2 to 4', 'taiko_rhythm.jpg'),
     createGameObj('Theatrhythm Final Bar Line', '2', 'theatrhythm.jpg'),
   ];
@@ -49,7 +49,7 @@ function VideoGames() {
     createGameObj('Death Squared', '2 to 4', 'death_squared.jpg'),
     createGameObj('Heave Ho', '2 to 4', 'heave_ho.jpg'),
     createGameObj('Just Shapes & Beats', '2 to 4', 'just_shapes.jpg'),
-    createGameObj('Keep Talking & Nobody Explodes', '2 to 4', 'keep_talking.jpg'),
+    createGameObj('Keep Talking and Nobody Explodes', '2 to 4', 'keep_talking.jpg'),
     createGameObj('Lovers in a Dangerous Spacetime', '2 to 4', 'lovers.jpg'),
     createGameObj('Moving Out', '2 to 4', 'moving_out.jpg'),
     createGameObj('Out of Space', '2 to 4', 'out_of_space.jpg'),
@@ -57,7 +57,7 @@ function VideoGames() {
     createGameObj('PlateUp!', '2 to 4', 'plateup.jpg'),
     createGameObj('Tools Up!', '2 to 4', 'tools_up.jpg'),
     createGameObj('Tricky Towers', '2 to 4', 'tricky_towers.jpg'),
-    createGameObj('Unrailed', '2 to 4', 'unrailed.jpg'),
+    createGameObj('Unrailed!', '2 to 4', 'unrailed.jpg'),
   ];
 
   const renderGames = (games: Array<any>) => {
@@ -77,7 +77,7 @@ function VideoGames() {
         Video Games
       </div>
       <div className='text-xl xl:text-2xl text-gray-500 mb-8 text-center'>
-        Indulge in video game experiences on Nintendo Switch and PC
+        Indulge in video game experiences on Nintendo Switch and PC.
       </div>
       <div className='text-2xl xl:text-4xl text-gray-800 font-bold mb-8 text-center'>
         Nintendo Switch
