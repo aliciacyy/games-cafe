@@ -64,6 +64,14 @@ function NavBar() {
                 Board Games
               </Link>
             </li>
+            <li onClick={closeToggle}>
+              <Link
+                to="/games-cafe/video-games"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              >
+                Video Games
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -40,10 +40,10 @@ function App() {
       <AboutSection/>
       <div className="leCards xl:flex xl:gap-0">
         <HomeSection bgClass="bg-gray-100" comingSoon={false}
-         title="Board Games" img="games_cards.svg"
+         title="Board Games" img="games_cards.svg" link="board-games"
          subtitle="Experience the nostalgic charm of timeless board games."/>
-        <HomeSection bgClass="bg-gray-300" comingSoon={true} 
-          title="Video Games" img="games_video.svg"
+        <HomeSection bgClass="bg-gray-300" comingSoon={false} 
+          title="Video Games" img="games_video.svg" link="video-games"
           subtitle="Indulge in video game experiences on Nintendo Switch and PC."/>
         <HomeSection bgClass="bg-gray-400" comingSoon={true} 
           title="VR Games" img="games_vr.svg"

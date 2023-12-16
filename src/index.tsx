@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./pages/App";
-import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import BoardGames from "./pages/BoardGames";
 import ScrollToTop from "./ScrollToTop";
 import NavBar from './components/NavBar';
+import VideoGames from './pages/VideoGames';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +26,16 @@ const router = createBrowserRouter([
         <NavBar/>
         <ScrollToTop />
         <BoardGames />
+      </>
+    ),
+  },
+  {
+    path: "/games-cafe/video-games",
+    element: (
+      <>
+        <NavBar/>
+        <ScrollToTop />
+        <VideoGames />
       </>
     ),
   },

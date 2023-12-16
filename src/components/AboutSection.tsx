@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import AboutPic from "../assets/about.svg";
 
 function AboutSection() {
   useEffect(() => {
@@ -42,7 +41,7 @@ function AboutSection() {
           </p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img className="h-60" src={AboutPic} alt="about" />
+          <img className="h-60" src={process.env.PUBLIC_URL + '/assets/about.svg'} alt="about" />
         </div>
       </div>
     </section>

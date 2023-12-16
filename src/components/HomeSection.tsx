@@ -10,7 +10,7 @@ function HomeSection(props: any) {
         <img
           className="xl:w-44 w-60 h-44"
           alt="home"
-          src={require("../assets/" + props.img)}
+          src={process.env.PUBLIC_URL + "/assets/" + props.img}
         />
       </div>
       <div className="text-gray-600 h-16">{props.subtitle}</div>
@@ -23,9 +23,9 @@ function HomeSection(props: any) {
         </button>
       )}
       {!props.comingSoon && (
-        <Link to="board-games">
+        <Link to={props.link}>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            View board games
+            View {props.title === 'Board Games' ? 'board' : 'video' } games
           </button>
         </Link>
       )}
